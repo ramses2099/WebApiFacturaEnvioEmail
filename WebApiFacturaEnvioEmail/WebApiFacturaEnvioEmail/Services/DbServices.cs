@@ -11,8 +11,7 @@ namespace WebApiFacturaEnvioEmail.Services
 {
     public class DbServices
     {
-
-
+                
         public static List<HDFactNotificacionEmail> GetHDFactNotificacionEmail()
         {
 
@@ -319,8 +318,7 @@ namespace WebApiFacturaEnvioEmail.Services
             }
 
         }
-
-
+        
     }
 
 }
