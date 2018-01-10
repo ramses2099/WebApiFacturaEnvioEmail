@@ -16,11 +16,13 @@ using Microsoft.Owin.Security.OAuth;
 using WebApiFacturaEnvioEmail.Models;
 using WebApiFacturaEnvioEmail.Providers;
 using WebApiFacturaEnvioEmail.Results;
+using System.Web.Http.Description;
 
 namespace WebApiFacturaEnvioEmail.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class AccountController : ApiController
     {
         private const string LocalLoginProvider = "Local";
