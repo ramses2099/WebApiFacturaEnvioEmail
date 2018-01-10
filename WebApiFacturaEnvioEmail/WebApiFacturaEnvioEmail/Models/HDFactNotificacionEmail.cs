@@ -25,9 +25,7 @@ namespace WebApiFacturaEnvioEmail.Models
         public string Telefono { get; set; }
         public string Observacion { get; set; }
         public string NombreUsuario { get; set; }
-
-
+        
     }
-
-
+    
 }
